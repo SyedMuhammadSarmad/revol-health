@@ -1,0 +1,321 @@
+/* general styles */
+
+.title-h1 {
+    font-family: poppins, sans-serif;
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight:700;
+}
+
+.title-h2 {
+    font-family: poppins, sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+
+.title-h3 {
+    font-family: poppins, sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight:700;
+}
+
+
+.title-h4 {
+    font-family: poppins, sans-serif;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight:700;
+}
+
+.title-h5 {
+    font-family: poppins, sans-serif;
+    font-size: 22px;
+    margin-bottom: 30px;
+
+}
+.text-p {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.small-text-p {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.smaller-text-p {
+    text-transform: uppercase;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-pink {
+    color: #F2436E;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.p-100 {
+    padding: 100px 0;
+}
+
+
+.p-50 {
+    padding: 50px 0;
+}
+
+.primary-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background: linear-gradient(90deg, #F2436E, #7317A5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+/* hero section */
+
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    
+}
+
+
+/* impact healthcare */
+
+.impact-healthcare .healthcare-card{
+    border-radius: 30px;
+    padding: 55px 40px
+
+}
+
+.border-right-custom {
+  position: relative;
+}
+
+.border-right-custom::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  right: 0;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.gradient-border {
+  position: relative;
+  border-radius: 20px;
+
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #F2436E, #7317A5);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+
+.stat img{
+    margin-bottom: 37px;
+
+}
+
+
+/* Tailored healthcare section */
+
+.health-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 80px 30px 40px;
+    margin-bottom: 15px;
+    min-height: 375px ;
+
+}
+
+.health-card-lg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 80px 30px 40px;
+    margin-bottom: 15px;
+    min-height: 450px ;
+
+}
+
+.health-card-sm{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 80px 30px 40px;
+    margin-bottom: 15px;
+    min-height: 300px;
+
+}
+
+.mobiles-card{
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+    min-width: 1400px;
+
+    padding:70px 80px 70px;
+}
+
+/* mobile app card section */
+
+.mobile-apps-card{
+    margin-top: 30px;
+    border-radius:20px;
+    padding:150px 60px;
+
+}
+
+.border-right-custom-small {
+  position: relative;
+}
+
+.border-right-custom-small::after {
+  content: "";
+  position: absolute;
+  top:0px;
+  bottom:30px;
+  right: 0;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.app-stats-1{
+    padding-right:50px;
+}
+
+.app-stats-2{
+    padding-left:30px;
+}
+
+.nav-tab{
+    column-gap:20px;
+    border-bottom: none;
+}
+
+.nav .nav-item button{
+    background: transparent;
+    
+}
+
+
+
+.nav .nav-item button {
+  position: relative;
+  border-radius: 20px;
+  background:transparent;
+
+}
+
+.nav .nav-item button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #F2436E, #7317A5);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.nav-tab .nav-link {
+  color: white !important;        
+}
+
+.nav-tab .nav-link:hover,
+.nav-tab .nav-link:focus,
+.nav-tab .nav-link.active {
+  color: white !important;        
+}
+
+.nav-tab .nav-link:hover{
+    background: linear-gradient(90deg, #F2436E, #7317A5);
+}
+
+/*  why-revol-health */
+.why-revol-health .box{
+background: #FFFFFF;
+border: 1px solid #F0F0F0;
+box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+padding:30px 40px;
+margin-bottom: 30px;
+}
+
+.why-revol-health .box svg { margin-bottom: 20px; }
+
+
+
+
+
+
+
