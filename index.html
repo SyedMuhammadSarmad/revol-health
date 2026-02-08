@@ -919,22 +919,18 @@
 
                     <div class="testimonials-navs ">
                         <div class="arrow prev">
-                            <svg width="8" height="13" viewBox="0 0 8 13" 
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M0.293258 7.071L5.95026 12.728L7.36426 11.314L2.41426 6.364L7.36426 1.414L5.95026 0L0.293258 5.657C0.105787 5.84453 0.000471592 6.09884 0.000471592 6.364C0.000471592 6.62916 0.105787 6.88347 0.293258 7.071Z"
-                                     />
+                                    d="M0.293258 7.071L5.95026 12.728L7.36426 11.314L2.41426 6.364L7.36426 1.414L5.95026 0L0.293258 5.657C0.105787 5.84453 0.000471592 6.09884 0.000471592 6.364C0.000471592 6.62916 0.105787 6.88347 0.293258 7.071Z" />
                             </svg>
 
 
                         </div>
 
                         <div class="arrow next">
-                            <svg  width="8" height="13" viewBox="0 0 8 13" 
-                                xmlns="http://www.w3.org/2000/svg">
+                            <svg width="8" height="13" viewBox="0 0 8 13" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M0.293258 7.071L5.95026 12.728L7.36426 11.314L2.41426 6.364L7.36426 1.414L5.95026 0L0.293258 5.657C0.105787 5.84453 0.000471592 6.09884 0.000471592 6.364C0.000471592 6.62916 0.105787 6.88347 0.293258 7.071Z"
-                                     />
+                                    d="M0.293258 7.071L5.95026 12.728L7.36426 11.314L2.41426 6.364L7.36426 1.414L5.95026 0L0.293258 5.657C0.105787 5.84453 0.000471592 6.09884 0.000471592 6.364C0.000471592 6.62916 0.105787 6.88347 0.293258 7.071Z" />
                             </svg>
 
                         </div>
@@ -1104,7 +1100,7 @@
 
     </section>
 
-    <section class="industry-leaders">
+    <!-- <section class="industry-leaders">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -1138,6 +1134,100 @@
             </div>
 
 
+
+
+        </div>
+
+        <div class="container">
+            <div class="row p-100 text-white">
+
+                <div class="next-step " style="background-image: url(assets/images/Newsletter.png);background-size: cover;border-radius: 20px; 
+    background-position: center;">
+                    <h3 class="text-h2">Ready to take <span class="text-pink">the next step?</span>
+
+                    </h3>
+
+                    <p class="text-p">
+                        Sign up for our newsletter to receive health tips and updates <br>directly to your inbox.
+                    </p>
+
+                    <a class="secondary-btn" href=""> Book a Free Consultation</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <section class="industry-leaders">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="title-h2">
+                        Recognized as Industry Leaders in <br>
+                        <span class="text-pink">Healthcare solutions</span>
+                    </h2>
+                </div>
+                <div class="col-md-12 brand-boxes">
+                    <div class="cont swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <!-- slide 1 -->
+                                <div class="brand-box">
+                                    <img src="assets/images/image 23.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- slide 2 -->
+                                <div class="brand-box">
+                                    <img src="assets/images/image 24.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- slide 3 -->
+                                <div class="brand-box">
+                                    <img src="assets/images/image 25.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- slide 4 -->
+                                <div class="brand-box">
+                                    <img src="assets/images/image 26.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- slide 5 -->
+                                <div class="brand-box">
+                                    <img src="assets/images/image 29.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <!-- slide 5 -->
+                                <div class="brand-box">
+                                    <img src="assets/images/image 29.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
         </div>
 
         <div class="container">
@@ -1161,6 +1251,8 @@
         </div>
 
     </section>
+
+
 
 
     <footer class="footer text-white p-100"
@@ -1338,8 +1430,25 @@
             slidesPerView: 3,
             loop: true,
             spaceBetween: 20,
+            speed: 500,
         });
 
+    </script>
+
+    <script>
+        const swiper2 = new Swiper('.cont', {
+            loop: true,
+            slidesPerView: 5,
+            spaceBetween: 30,
+            speed: 6000,
+            autoplay: {
+                delay: 0,
+                // disableOnInteraction: false,
+                // pauseOnMouseEnter: false,
+
+            }, freeMode: true,
+            freeModeMomentum: false,
+        });
     </script>
 
 

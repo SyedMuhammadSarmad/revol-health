@@ -537,11 +537,24 @@ p {
     background-color: #171739;
     border-radius: 10px;
     padding: 10px 10px;
+    width: 173px;
+    height:100%;
 }
 
 .industry-leaders .next-step {
     padding: 60px 60px;
 }
+
+.cont .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.cont .swiper-slide {
+  width: auto; /* allows continuous flow */
+}
+
+
+
 
 /* footer */
 .footer {
