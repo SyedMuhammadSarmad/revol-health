@@ -254,8 +254,11 @@ p {
     margin-top: 30px;
     border-radius: 20px;
     padding: 150px 60px;
+    
 
 }
+
+
 
 .border-right-custom-small {
     position: relative;
@@ -488,24 +491,38 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   display: flex;
   align-items: center;
   justify-content: center;
    
 }
 
-.testimonials-navs .prev:hover img{
-    content: url(/assets/images/Vector\ \(1\).png);
-    transform: Scalex(-1);
-   
+.testimonials-navs  .next svg{
+    transform:scaleX(-1)
 }
 
-.testimonials-navs .next:hover img{
-    
-    
-   
+.arrow svg{
+    fill:#F2436E;
 }
+.arrow:hover svg{
+    fill:white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* industry-leaders */
