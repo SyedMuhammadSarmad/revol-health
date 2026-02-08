@@ -195,7 +195,13 @@ p {
     padding: 80px 30px 40px;
     margin-bottom: 15px;
     min-height: 375px;
+    display: flex; 
+    flex-direction: column; 
+    
+}
 
+.health-card a{
+    margin-top:auto;
 }
 
 .health-card-lg {
@@ -205,8 +211,14 @@ p {
     border-radius: 20px;
     padding: 80px 30px 40px;
     margin-bottom: 15px;
-    min-height: 450px;
+    min-height: 425px;
+    display: flex; 
+    flex-direction: column; 
 
+}
+
+.health-card-lg a {
+    margin-top:auto;
 }
 
 .health-card-sm {
@@ -217,15 +229,21 @@ p {
     padding: 80px 30px 40px;
     margin-bottom: 15px;
     min-height: 300px;
-
+    display: flex; 
+    flex-direction: column; 
 }
+
+.health-card-sm a{
+    margin-top:auto;
+}
+
 
 .mobiles-card {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
-    min-width: 1400px;
+    /* min-width: 1400px; */
 
     padding: 70px 80px 70px;
 }
@@ -432,17 +450,63 @@ p {
 .testimonials .testimonials-card {
     padding: 34px 34px 34px;
     background-color: #F9FAFB;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-.testimonials-slider {
-    display: flex;
-    gap: 10px;
-}
 
 .testimonials-card svg {
     margin-bottom: 20px;
 }
+
+.testimonials-navs{
+    margin-left:auto;
+    display:flex;
+
+    gap:10px;
+    
+}
+
+.testimonials-navs .arrow{
+      width: 40px;            
+  height: 40px;
+  background-image: url(/assets/images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+
+.testimonials-navs .arrow:hover{
+      width: 40px;            
+  height: 40px;
+  background-image: url(/assets/images/Ellipse\ 2251\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+.testimonials-navs .prev:hover img{
+    content: url(/assets/images/Vector\ \(1\).png);
+    transform: Scalex(-1);
+   
+}
+
+.testimonials-navs .next:hover img{
+    
+    
+   
+}
+
 
 /* industry-leaders */
 
