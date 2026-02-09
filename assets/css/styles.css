@@ -253,7 +253,7 @@ p {
 .mobile-apps-card {
     margin-top: 30px;
     border-radius: 20px;
-    padding: 150px 60px;
+    padding: 50px 60px;
     
 
 }
@@ -390,6 +390,9 @@ p {
     background-color: #181C4A;
     padding: 30px 20px;
     border-radius: 30px;
+    display: flex; 
+    align-items: center; 
+    gap:20px; justify-content: center;
     
 }
 
@@ -512,33 +515,21 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* industry-leaders */
 
-.industry-leaders .brand-boxes {
+/* .industry-leaders .brand-boxes {
     display: flex;
     column-gap: 20px;
     justify-content: center;
-}
+} */
 
 .industry-leaders .brand-box {
     background-color: #171739;
-    border-radius: 10px;
-    padding: 10px 10px;
-    width: 173px;
-    height:100%;
+    border-radius: 20px;
+
+    padding: 30px 10px;
+    
+    
 }
 
 .industry-leaders .next-step {
@@ -549,9 +540,15 @@ p {
   transition-timing-function: linear !important;
 }
 
-.cont .swiper-slide {
-  width: auto; /* allows continuous flow */
+.cont .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+
+
 
 
 
