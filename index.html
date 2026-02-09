@@ -2,10 +2,15 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,28 +18,26 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
-
 
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color: #11153C;">
 
-    <nav class="navbar navbar-expand-lg " style="background-color: #11153C;">
 
+            <div class="container">
 
-        <div class="container">
+                <div class="col-md-2 heading">
+                    <img src="/assets/images/Container.png" alt="">
 
-            <div class="col-md-2 heading">
-                <img src="/assets/images/Container.png" alt="">
+                </div>
 
-            </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation menu">
+                    <span class="navbar-toggler-icon"></span>
 
-            <div class="col-md-8">
+                </button>
                 <div class="navbar-collapse collapse">
                     <ul class="navbar-nav mx-auto ">
                         <li class="nav-item m-2">
@@ -50,20 +53,69 @@
                         <li class="nav-item m-2">
                             <a href="index.html" class="text-white">Contacts</a>
                         </li>
+
+
                     </ul>
+
+                    <div class="d-flex">
+                        <a class="primary-btn " href="">
+                            Book Appointment
+                        </a>
+                    </div>
                 </div>
 
+
+
+                <!-- <div class="col-md-2 ">
+                
+            </div> -->
             </div>
 
-            <div class="col-md-2 ">
-                <a class="primary-btn " href="">
-                    Book Appointment
-                </a>
-            </div>
+        </nav>
+    </header>
+
+    <!-- off-canvas -->
+    <div class="offcanvas offcanvas-end show" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="visibility: visible;" aria-modal="true" role="dialog">
+        <div class="offcanvas-header">
+            <a class="navbar-brand" href="/">
+                <img src="assets/images/Container.png" alt="revol logo" class="img-fluid logo">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-
-    </nav>
-
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-lg-3 pe-0">
+                
+                <li class="nav-item custom-dropdown">
+                    <a class="nav-link" href="">Services
+                    </a>
+                    <!-- <a class="nav-link" href="">Services ▾</a> -->
+                    <!-- <ul class="dropdown-list">
+                        <li><a class="dropdown-item" href="">
+                                Patient Engagement</a></li>
+                        <li><a class="dropdown-item" href="">Referral
+                                Care</a></li>
+                        <li><a class="dropdown-item" href="">Intelligent Patient</a>
+                        </li>
+                        <li><a class="dropdown-item" href="">Healthcare
+                                Data</a>
+                        </li>
+                        <li><a class="dropdown-item" href="">Prior
+                                Authorization</a></li>
+                    </ul> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About us</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="/case-studies">Find a Doctor</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
+                </li>
+            </ul>
+            <a href="/contact" class="primary-btn">Get a Quote</a>
+        </div>
+    </div>
 
     <section class="hero" style="background-image: url(/assets/images/hero-bg.png);
 
@@ -74,11 +126,11 @@
                 <div class=" col-md-7 my-auto">
 
                     <h1 class="text-white title-h1">
-                        <span class="text-pink">Transforming Healthcare </span> with <br>Intelligent Technology
+                        <span class="text-pink">Transforming Healthcare </span> with Intelligent Technology
                     </h1>
                     <p class="text-white text-p">RevoHealth delivers secure, scalable, and compliant digital solutions
-                        <br> that
-                        empower hospitals, health systems, and MedTech innovators to <br>streamline operations.
+                        that
+                        empower hospitals, health systems, and MedTech innovators to streamline operations.
                     </p>
                     <a class="secondary-btn">
                          Start Your Digital Transformation
@@ -105,7 +157,7 @@
                         <div class="col-md-12 text-white text-center ">
                             <h2 class="title-h2 text-white">Proven Impact Through <span class="text-pink">
                                     Intelligent
-                                    <br>Healthcare</span></h2>
+                                    Healthcare</span></h2>
 
 
                         </div>
@@ -167,7 +219,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="title-h2 text-center">Tailored Healthcare <span class="text-pink">
-                            Software <br> Development</span> services</h2>
+                            Software Development</span> services</h2>
                 </div>
             </div>
 
@@ -323,13 +375,13 @@
                     style="background-image:url(/assets/images/Group\ 1686566448.png);">
 
                     <h3 class="title-h2">
-                        Proven Impact Through <br> <span class="text-pink">Intelligent Healthcare</span>
+                        Proven Impact Through <span class="text-pink">Intelligent Healthcare</span>
                     </h3>
 
                     <p class="text-p">
-                        Exploring how artificial intelligence is revolutionizing early <br> disease detection and
+                        Exploring how artificial intelligence is revolutionizing early disease detection and
                         improving diagnostic accuracy across
-                        <br> multiple medical specialties.
+                        multiple medical specialties.
                     </p>
 
 
@@ -347,7 +399,7 @@
             <div class="row">
                 <div class="column">
                     <h2 class="title-h2">
-                        AI-Powered Success in <br>
+                        AI-Powered Success in
                         <span class="text-pink">Healthcare</span>
                     </h2>
 
@@ -396,9 +448,9 @@
                                 </h3>
 
                                 <p class="small-text-p">
-                                    Kinekt connects patients with therapists through a seamless mobile <br>experience,
+                                    Kinekt connects patients with therapists through a seamless mobile experience,
                                     offering
-                                    personalized exercise plans and progress tracking <br> to enhance recovery outcomes.
+                                    personalized exercise plans and progress tracking to enhance recovery outcomes.
                                 </p>
                                 <div class="d-flex">
 
@@ -447,9 +499,9 @@
                                 </h3>
 
                                 <p class="small-text-p">
-                                    Kinekt connects patients with therapists through a seamless mobile <br>experience,
+                                    Kinekt connects patients with therapists through a seamless mobile experience,
                                     offering
-                                    personalized exercise plans and progress tracking <br> to enhance recovery outcomes.
+                                    personalized exercise plans and progress tracking to enhance recovery outcomes.
                                 </p>
                                 <div class="d-flex">
 
@@ -497,9 +549,9 @@
                                 </h3>
 
                                 <p class="small-text-p">
-                                    Kinekt connects patients with therapists through a seamless mobile <br>experience,
+                                    Kinekt connects patients with therapists through a seamless mobile experience,
                                     offering
-                                    personalized exercise plans and progress tracking <br> to enhance recovery outcomes.
+                                    personalized exercise plans and progress tracking to enhance recovery outcomes.
                                 </p>
                                 <div class="d-flex">
 
@@ -548,9 +600,9 @@
                                 </h3>
 
                                 <p class="small-text-p">
-                                    Kinekt connects patients with therapists through a seamless mobile <br>experience,
+                                    Kinekt connects patients with therapists through a seamless mobile experience,
                                     offering
-                                    personalized exercise plans and progress tracking <br> to enhance recovery outcomes.
+                                    personalized exercise plans and progress tracking to enhance recovery outcomes.
                                 </p>
                                 <div class="d-flex">
 
@@ -596,13 +648,13 @@
             <div class="row">
                 <div class="col-md-4 my-auto">
                     <h2 class="title-h2">
-                        Why Healthcare <br> Leaders Choose <br> <span class="pink-head">RevoHealth</span>
+                        Why Healthcare Leaders Choose <span class="pink-head">RevoHealth</span>
                     </h2>
 
                     <p class="text-p">
-                        Exploring how artificial intelligence is <br> revolutionizing early disease detection and <br>
+                        Exploring how artificial intelligence is revolutionizing early disease detection and
                         improving
-                        diagnostic accuracy across <br> multiple medical specialties.
+                        diagnostic accuracy across multiple medical specialties.
                     </p>
 
                 </div>
@@ -1001,9 +1053,9 @@
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                     <p class="text-p">
-                                        "TekRevol was proficient when <br>
+                                        "TekRevol was proficient when
                                         it came to understanding my business app requirements
-                                        <br> and meeting deadlines."
+                                        and meeting deadlines."
                                     </p>
 
                                 </div>
@@ -1034,9 +1086,9 @@
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                     <p class="text-p">
-                                        "TekRevol was proficient when <br>
+                                        "TekRevol was proficient when
                                         it came to understanding my business app requirements
-                                        <br> and meeting deadlines."
+                                        and meeting deadlines."
                                     </p>
 
                                 </div>
@@ -1067,9 +1119,9 @@
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                     <p class="text-p">
-                                        "TekRevol was proficient when <br>
+                                        "TekRevol was proficient when
                                         it came to understanding my business app requirements
-                                        <br> and meeting deadlines."
+                                        and meeting deadlines."
                                     </p>
 
                                 </div>
@@ -1101,9 +1153,9 @@
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                     <p class="text-p">
-                                        "TekRevol was proficient when <br>
+                                        "TekRevol was proficient when
                                         it came to understanding my business app requirements
-                                        <br> and meeting deadlines."
+                                        and meeting deadlines."
                                     </p>
 
                                 </div>
@@ -1193,7 +1245,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2 class="title-h2">
-                        Recognized as Industry Leaders in <br>
+                        Recognized as Industry Leaders in
                         <span class="text-pink">Healthcare solutions</span>
                     </h2>
                 </div>
@@ -1268,7 +1320,7 @@
                     </h3>
 
                     <p class="text-p">
-                        Sign up for our newsletter to receive health tips and updates <br>directly to your inbox.
+                        Sign up for our newsletter to receive health tips and updates directly to your inbox.
                     </p>
 
                     <a class="secondary-btn" href=""> Book a Free Consultation</a>

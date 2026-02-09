@@ -258,8 +258,6 @@ p {
 
 }
 
-
-
 .border-right-custom-small {
     position: relative;
 }
@@ -370,7 +368,7 @@ p {
 .why-revol-health .mt {
     margin-top: 30px;
 }
-
+/* how we work */
 .how-we-work .num-img {
     width: 76px;
     height: 76px;
@@ -405,10 +403,6 @@ p {
 }
 
 
-
-
-
-/* 1. Set the base state for all slides */
 .how-we-work .verticalswipper .swiper-slide {
     height: 130px !important;
     display: flex;
@@ -421,7 +415,7 @@ p {
     width:100%;
 }
 
-/* 2. Set the state for the active (centered) slide */
+
 .how-we-work .verticalswipper .swiper-slide-active {
     
     transform: scale(0.9);  /* Scale it up slightly larger than original */
@@ -449,16 +443,12 @@ p {
     mask-composite: exclude;
 }
 
-
-
-
 /* Textimonials */
 .testimonials .testimonials-card {
     padding: 34px 34px 34px;
     background-color: #F9FAFB;
     border-radius: 20px;
 }
-
 
 .testimonials-card svg {
     margin-bottom: 20px;
@@ -508,25 +498,14 @@ p {
     fill:#F2436E;
 }
 .arrow:hover svg{
-    fill:white;
-    
+    fill:white; 
 }
 
-
-
-
 /* industry-leaders */
-
-/* .industry-leaders .brand-boxes {
-    display: flex;
-    column-gap: 20px;
-    justify-content: center;
-} */
 
 .industry-leaders .brand-box {
     background-color: #171739;
     border-radius: 20px;
-
     padding: 30px 10px;
     
     
@@ -546,12 +525,6 @@ p {
     justify-content: center;
 
 }
-
-
-
-
-
-
 
 /* footer */
 .footer {
